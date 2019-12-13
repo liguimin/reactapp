@@ -1,0 +1,8 @@
+:global(.li-tag){
+    padding: 20px 0;
+/*    border-bottom:dashed 1px rgba(0,0,0,.2);*/
+}
+
+:global(.li-tag .ant-tag){
+    margin-bottom: 10px;
+}

@@ -1,0 +1,102 @@
+.role-list{
+    list-style-type:none;
+    font-size: 16px;
+    padding-inline-start: 20px;
+    color: rgba(0,0,0,0.7);
+    margin-block-start: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.role-list li{
+    vertical-align: middle;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.role-list li .content-box{
+    padding: 20px 15px 20px 0;
+    border-bottom: solid 1px #e8e8e8;
+}
+
+.role-list li:hover{
+    background: rgba(0,0,0,0.05);
+/*    background: rgb(24, 144, 255);*/
+/*    color: #fff;*/
+}
+
+
+.role-list .desc{
+    color: rgba(0,0,0,0.45);
+    font-size: 12px;
+}
+
+.permission-block{
+
+}
+
+.permission-block:not(:first-child){
+    margin-top: 50px;
+}
+
+.permission-title-box{
+    border-bottom: solid 1px #E8E8E8;
+    padding-bottom: 10px;
+}
+
+.permission-title{
+    font-size: 17px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+.permission-content-box{
+    padding: 0 0 0 5px;
+}
+
+/*:global(.ant-checkbox-group-item){
+    margin-right: 150px;
+}*/
+
+/*:global(.ant-menu-inline){
+    border-color: transparent;
+}*/
+
+.spinning{
+ /*   position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;*/
+    height: 100%;
+    width: 100%;
+}
+
+.spinning :global(.ant-spin-container){
+    height: 100%;
+}
+
+
+.spinning :global(.ant-spin){
+    max-height: inherit!important;
+}
+
+
+:global(.permission-body){
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding:0 0 0 10px;
+ /*   height: 100%;
+    margin-bottom: -20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;*/
+}
+
+:global(.permission-body .ant-tabs>.ant-tabs-content){
+    height: 100%;
+    width: 100%;
+}
